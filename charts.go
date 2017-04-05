@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"charts/version"
+	"github.com/takama/charts/version"
 	"github.com/takama/router"
 )
 

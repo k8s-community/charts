@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"charts/version"
+	"github.com/takama/charts/version"
 	"github.com/takama/router"
 )
 

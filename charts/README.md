@@ -1,8 +1,8 @@
-#webapp: A demo Helm chart
+#charts: A Helm charts server
 
-Run a demo deployment/service of a simple Kubernetes application.
+A simple charts server. This service deployed in the same way as all charts services.
 
-The `templates/` directory contains a demo deployment/service/ingress with parameters.
+The `templates/` directory contains a charts deployment/service/ingress with parameters.
 
 The `values.yaml` file contains the default values for the
 `deployment.yaml`, `service.yaml` and `ingress.yaml` templates.
