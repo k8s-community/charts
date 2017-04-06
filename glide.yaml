@@ -1,4 +1,4 @@
-package: .
+package: github.com/takama/charts
 import:
 - package: github.com/takama/router
-  version: ^0.5.0
+  version: ^0.6.0
