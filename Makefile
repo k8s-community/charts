@@ -30,6 +30,9 @@ vendor: clean
 	go get -u github.com/Masterminds/glide \
 	&& glide install
 
+utils:
+	go get -u github.com/golang/lint/golint
+
 build: vendor
 	CGO_ENABLED=0 GOOS=${GOOS} go build -a -installsuffix cgo \
 		-ldflags "-s -w -X ${PROJECT}/version.RELEASE=${RELEASE} -X ${PROJECT}/version.COMMIT=${COMMIT} -X ${PROJECT}/version.REPO=${REPO_INFO}" \
@@ -56,7 +59,7 @@ fmt:
 	@echo "+ $@"
 	@go list -f '{{if len .TestGoFiles}}"gofmt -s -l {{.Dir}}"{{end}}' $(shell go list ${PROJECT}/... | grep -v vendor) | xargs -L 1 sh -c
 
-lint:
+lint: utils
 	@echo "+ $@"
 	@go list -f '{{if len .TestGoFiles}}"golint {{.Dir}}/..."{{end}}' $(shell go list ${PROJECT}/... | grep -v vendor) | xargs -L 1 sh -c
 
@@ -64,7 +67,7 @@ vet:
 	@echo "+ $@"
 	@go vet $(shell go list ${PROJECT}/... | grep -v vendor)
 
-test: vendor fmt lint vet
+test: vendor utils fmt lint vet
 	@echo "+ $@"
 	@go test -v -race -tags "$(BUILDTAGS) cgo" $(shell go list ${PROJECT}/... | grep -v vendor)
 
