@@ -1,5 +1,5 @@
 # charts
-Kubernetes charts server and service template
+A simple Helm charts server and service template for Kubernetes environment
 
 ## Contributors (unsorted)
 
