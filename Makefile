@@ -5,7 +5,7 @@ BUILDTAGS=
 # Use the 0.0.0 tag for testing, it shouldn't clobber any release builds
 APP=charts
 PROJECT?=charts
-RELEASE?=0.0.3
+RELEASE?=0.0.4
 GOOS?=linux
 REGISTRY?=containers.golang.services
 CHARTS_SERVICE_PORT?=8080

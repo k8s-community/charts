@@ -1,6 +1,8 @@
 # charts
 
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/rumyantseva/mif/issues)
+
+[![Build Status](https://travis-ci.org/takama/charts.png?branch=master)](https://travis-ci.org/takama/charts)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/takama/charts/issues)
 [![Go Report Card](https://goreportcard.com/badge/github.com/takama/charts)](https://goreportcard.com/report/github.com/takama/charts)
 
 A simple Helm charts server and service template for Kubernetes environment
