@@ -1,6 +1,5 @@
 language: go
-install: false
+install: make vendor
 go:
   - 1.7.5
   - tip
-script: make test
