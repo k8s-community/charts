@@ -27,7 +27,7 @@ image:
   ##
   registry: containers.golang.services
   name: charts
-  tag: 0.4.10
+  tag: 0.0.2
 
   ## Docker Registry/Hub auth secret name, always use `registry-pull-secret` if registry inside if k8s
   ##
