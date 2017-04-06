@@ -1,6 +1,6 @@
 name: charts
 description: A Helm chart for Kubernetes charts repository
-version: 0.0.5
+version: 0.0.6
 home: https://openprovider.com/
 sources:
   - https://github.com/takama/charts
