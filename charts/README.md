@@ -1,6 +1,6 @@
-#charts: A Helm charts server
+# charts: A Helm charts server
 
-A simple charts server. This service deployed in the same way as all charts services.
+Charts is a simple charts server. This service might be deployed in the same way as all charts services.
 
 The `templates/` directory contains a charts deployment/service/ingress with parameters.
 
