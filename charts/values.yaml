@@ -27,7 +27,7 @@ image:
   ##
   registry: containers.k8s.community
   name: charts
-  tag: 0.0.7
+  tag: 0.0.8
 
   ## Docker Registry/Hub auth secret name, always use `registry-pull-secret` if registry inside if k8s
   ##
