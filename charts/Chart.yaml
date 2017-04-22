@@ -1,9 +1,9 @@
 name: charts
 description: A Helm chart for Kubernetes charts repository
 version: 0.0.7
-home: https://openprovider.com/
+home: https://k8s.community/
 sources:
-  - https://github.com/takama/charts
+  - https://github.com/k8s-community/charts
 maintainers:
   - name: Igor Dolzhikov
     email: idolzhikov@openprovider.com
