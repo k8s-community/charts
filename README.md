@@ -1,9 +1,9 @@
 # charts
 
 
-[![Build Status](https://travis-ci.org/takama/charts.png?branch=master)](https://travis-ci.org/takama/charts)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/takama/charts/issues)
-[![Go Report Card](https://goreportcard.com/badge/github.com/takama/charts)](https://goreportcard.com/report/github.com/takama/charts)
+[![Build Status](https://travis-ci.org/k8s-community/charts.png?branch=master)](https://travis-ci.org/k8s-community/charts)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/k8s-community/charts/issues)
+[![Go Report Card](https://goreportcard.com/badge/github.com/k8s-community/charts)](https://goreportcard.com/report/github.com/k8s-community/charts)
 
 A simple Helm charts server and service template for Kubernetes environment
 
@@ -20,4 +20,4 @@ Thank you for your understanding!
 
 ## License
 
-[MIT Public License](https://github.com/takama/charts/blob/master/LICENSE)
+[MIT Public License](https://github.com/k8s-community/charts/blob/master/LICENSE)
