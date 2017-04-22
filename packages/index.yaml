@@ -1,18 +1,18 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-04-07T10:48:30.66305574+07:00
+  - created: 2017-04-22T17:02:09.679227706+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: eea20af6ef479ece037942764ab2b8f0ca94c2210ce13a46a9177aaa6f3f2f64
+    digest: 921078094cf6f5ab14e2fe1836092e805a22407b9c6bee3201242cbbcdb4c3f0
     engine: gotpl
-    home: https://openprovider.com/
+    home: https://k8s.community/
     maintainers:
     - email: idolzhikov@openprovider.com
       name: Igor Dolzhikov
     name: charts
     sources:
-    - https://github.com/takama/charts
+    - https://github.com/k8s-community/charts
     urls:
-    - https://containers.golang.services/charts/charts-0.0.7.tgz
-    version: 0.0.7
-generated: 2017-04-07T10:48:30.662457368+07:00
+    - https://services.k8s.community/charts/charts-0.0.8.tgz
+    version: 0.0.8
+generated: 2017-04-22T17:02:09.677980103+07:00
