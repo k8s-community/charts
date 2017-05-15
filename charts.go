@@ -5,6 +5,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"os/signal"
+	"syscall"
 
 	"github.com/k8s-community/charts/version"
 	"github.com/takama/router"
@@ -24,6 +26,10 @@ var (
 	stdlog = log.New(os.Stdout, "[CHARTS]: ", log.LstdFlags)
 	errlog = log.New(os.Stderr, "[CHARTS:ERROR]: ", log.Ldate|log.Ltime|log.Lshortfile)
 )
+
+func shutdown() (string, error) {
+	return "Shutdown", nil
+}
 
 func logger(c *router.Control) {
 	remoteAddr := c.Request.Header.Get("X-Forwarded-For")
@@ -70,5 +76,24 @@ func main() {
 	r.GET("/healthz", healthz)
 	r.GET("/", root)
 	go r.Listen(fmt.Sprintf("0.0.0.0:%s", healthPort))
-	http.ListenAndServe(fmt.Sprintf("0.0.0.0:%s", chartsPort), http.FileServer(http.Dir(servicePath)))
+	go http.ListenAndServe(fmt.Sprintf("0.0.0.0:%s", chartsPort), http.FileServer(http.Dir(servicePath)))
+
+	// Set up channel on which to send signal notifications.
+	// We must use a buffered channel or risk missing the signal
+	// if we're not ready to receive when the signal is sent.
+	interrupt := make(chan os.Signal, 1)
+	signal.Notify(interrupt, os.Interrupt, os.Kill, syscall.SIGTERM)
+	killSignal := <-interrupt
+	stdlog.Println("Got signal:", killSignal)
+	status, err := shutdown()
+	if err != nil {
+		errlog.Printf("Error: %s Status: %s\n", err.Error(), status)
+		os.Exit(1)
+	}
+	if killSignal == os.Kill {
+		stdlog.Println("Service was killed")
+	} else {
+		stdlog.Println("Service was terminated by system signal")
+	}
+	stdlog.Println(status)
 }
