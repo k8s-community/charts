@@ -8,7 +8,7 @@ PROJECT?=charts
 RELEASE?=0.0.10
 GOOS?=linux
 REPOSITORY?=community-charts
-REGISTRY?=containers.k8s.community
+REGISTRY?=registry.k8s.community
 CHARTS_SERVICE_PORT?=8080
 CHARTS_SERVICE_HEALTH_PORT?=8082
 
