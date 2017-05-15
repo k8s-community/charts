@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-04-23T18:49:54.063449821+07:00
+  - created: 2017-05-15T17:57:50.890771561+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: c23cf7048def67b21199dbbcd8dac1ad42a188442cd12e70c0f90b02395084f6
+    digest: 1b69762f743c81d61dba867db1f660a8793e70262fb77e39b2bc14adf1965ba3
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,6 +13,6 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.0.10.tgz
-    version: 0.0.10
-generated: 2017-04-23T18:49:54.062963163+07:00
+    - https://services.k8s.community/charts/charts-0.0.11.tgz
+    version: 0.0.11
+generated: 2017-05-15T17:57:50.889117399+07:00
