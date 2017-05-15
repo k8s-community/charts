@@ -25,9 +25,9 @@ maxSurge: 1
 image:
   ## Docker Registry/Hub image name and tag
   ##
-  registry: containers.k8s.community
+  registry: registry.k8s.community
   name: charts
-  tag: 0.0.10
+  tag: 0.0.11
 
   ## Docker Registry/Hub auth secret name, always use `registry-pull-secret` if registry inside if k8s
   ##
@@ -52,7 +52,7 @@ ingress:
   ## Must be provided if Ingress is enabled
   ##
   hosts:
-  - containers.k8s.community
+  - services.k8s.community
 
   ## Ingress path feature allow access to service through path 
   ## example: https://hostname/namespace/servicename
@@ -65,7 +65,7 @@ ingress:
   tls:
   - secretName: tls-secret
     hosts:
-    - containers.k8s.community
+    - services.k8s.community
 
 service:
   ## App container name

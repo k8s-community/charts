@@ -5,10 +5,10 @@ BUILDTAGS=
 # Use the 0.0.0 tag for testing, it shouldn't clobber any release builds
 APP=charts
 PROJECT?=charts
-RELEASE?=0.0.10
+RELEASE?=0.0.11
 GOOS?=linux
 REPOSITORY?=community-charts
-REGISTRY?=containers.k8s.community
+REGISTRY?=registry.k8s.community
 CHARTS_SERVICE_PORT?=8080
 CHARTS_SERVICE_HEALTH_PORT?=8082
 
