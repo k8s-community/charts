@@ -5,7 +5,7 @@ BUILDTAGS=
 # Use the 0.0.0 tag for testing, it shouldn't clobber any release builds
 APP=charts
 USERNAME?=k8s-community
-RELEASE?=0.0.11
+RELEASE?=0.0.12
 PROJECT?=github.com/${USERNAME}/${APP}
 HELM_REPO?=https://services.k8s.community/${APP}
 GOOS?=linux
