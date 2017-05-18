@@ -1,6 +1,6 @@
 name: oauth-proxy
 description: A Helm chart for oauth-proxy service
-version: 0.0.2
+version: 0.0.3
 home: https://k8s.community/
 sources:
   - https://github.com/k8s-community/oauth-proxy
