@@ -28,7 +28,7 @@ image:
   ##
   registry: registry.k8s.community
   name: oauth-proxy
-  tag: 0.0.2
+  tag: 0.0.3
 
   ## Docker Registry/Hub auth secret name, always use `registry-pull-secret` if registry inside if k8s
   ##
@@ -54,11 +54,6 @@ ingress:
   ##
   hosts:
   - k8s.community
-
-  ## Ingress path feature allow access to service through path 
-  ## example: https://hostname/namespace/servicename
-  ##
-  usePath: false
 
   ## Ingress TLS configuration
   ## Secrets must be manually created in the namespace
