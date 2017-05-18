@@ -1,4 +1,4 @@
-## Default values for oauth-proxy service
+## Default values for myapp.
 ## This is a YAML-formatted file.
 ## Declare variables to be passed into your templates.
 
@@ -86,17 +86,13 @@ service:
   ##
   internalPort: 8080
 
-  ## Health cheks port
-  ##
-  healthPort: 8080
-
 ## Resource requests and limits
 ## Ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
 resources:
   limits:
-    cpu: 50m
+    cpu: 30m
     memory: 48Mi
   requests:
-    cpu: 50m
+    cpu: 30m
     memory: 48Mi

@@ -14,10 +14,6 @@ spec:
     targetPort: {{ .Values.service.internalPort }}
     protocol: TCP
     name: {{ .Values.service.name }}
-  - port: {{ .Values.service.healthPort }}
-    targetPort: {{ .Values.service.healthPort }}
-    protocol: TCP
-    name: {{ .Values.service.name }}-info
   selector:
     app: {{ template "fullname" . }}
   type: "{{ .Values.service.type }}"

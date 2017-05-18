@@ -3,7 +3,6 @@
 {{- $namespace := .Release.Namespace -}}
 {{- $serviceName := .Values.service.name -}}
 {{- $servicePort := .Values.service.externalPort -}}
-{{- $healthPort := .Values.service.healthPort -}}
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -39,18 +38,6 @@ spec:
     {{- end }}
           serviceName: {{ printf "%s-%s" $serviceName "v0" | trunc 63 }}
           servicePort: {{ $servicePort }}
-    {{- if $usePath }}
-      {{- if eq $namespace "default" }}
-      - path: /{{ $serviceName }}-info
-      {{- else }}
-      - path: /{{ $namespace }}/{{ $serviceName }}-info
-      {{- end }}
-        backend:
-    {{- else }}
-      - backend:
-    {{- end }}
-          serviceName: {{ printf "%s-%s" $serviceName "v0" | trunc 63 }}
-          servicePort: {{ $healthPort }}
   {{- end -}}
   {{- if .Values.ingress.tls }}
   tls:
