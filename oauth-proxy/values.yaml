@@ -55,11 +55,6 @@ ingress:
   hosts:
   - k8s.community
 
-  ## Ingress path feature allow access to service through path 
-  ## example: https://hostname/namespace/servicename
-  ##
-  usePath: false
-
   ## Ingress TLS configuration
   ## Secrets must be manually created in the namespace
   ##
