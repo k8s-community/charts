@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-17T19:26:15.813440826+07:00
+  - created: 2017-05-18T15:57:49.532502208+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: c207b33df67a00ef1032ff7a34e009952e0c837c9489633dbd806339545fa569
+    digest: 094a6fc31990fb7e47bc0a2632025f658e12c504e0acb5c72adf9733c7512881
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,6 +13,21 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.0.tgz
-    version: 0.1.0
-generated: 2017-05-17T19:26:15.812469806+07:00
+    - https://services.k8s.community/charts/charts-0.1.1.tgz
+    version: 0.1.1
+  oauth-proxy:
+  - created: 2017-05-18T15:57:49.532836+07:00
+    description: A Helm chart for oauth-proxy service
+    digest: 2b0761ccde982eb53947edd1c60c97c98c7aeb7289c41bc462bc76c7dfc264d8
+    engine: gotpl
+    home: https://k8s.community/
+    maintainers:
+    - email: elena@grahovac.me
+      name: Elena Grahovac
+    name: oauth-proxy
+    sources:
+    - https://github.com/k8s-community/oauth-proxy
+    urls:
+    - https://services.k8s.community/charts/oauth-proxy-0.0.1.tgz
+    version: 0.0.1
+generated: 2017-05-18T15:57:49.531853756+07:00
