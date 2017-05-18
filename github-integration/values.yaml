@@ -87,6 +87,10 @@ service:
   ##
   internalPort: 8080
 
+externalServices:
+  - name: cicd
+    host: k8s-build-01
+
 ## Resource requests and limits
 ## Ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
