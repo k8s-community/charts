@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-18T23:23:30.210619386+07:00
+  - created: 2017-05-19T00:01:21.016468893+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: 05a0b9d7dff638825a8de726a2c2c8014b9419641ec7c39886b19ac54ede7770
+    digest: 1d41c08aae96a73fdf0161e3b22642b5f87c93719fb9c76e136ee5207afe1d9f
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,10 +13,10 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.4.tgz
-    version: 0.1.4
+    - https://services.k8s.community/charts/charts-0.1.5.tgz
+    version: 0.1.5
   oauth-proxy:
-  - created: 2017-05-18T23:23:30.210897872+07:00
+  - created: 2017-05-19T00:01:21.016707342+07:00
     description: A Helm chart for oauth-proxy service
     digest: 1c48e24d1d29c3d87d1b2197a3bdf5c0084c537e231a36b9798e96aaa20e2e55
     engine: gotpl
@@ -31,9 +31,9 @@ entries:
     - https://services.k8s.community/charts/oauth-proxy-0.0.3.tgz
     version: 0.0.3
   user-manager:
-  - created: 2017-05-18T23:23:30.212308302+07:00
+  - created: 2017-05-19T00:01:21.016974852+07:00
     description: A Helm chart for user-manager service
-    digest: 5d65abcd44cb9b08e217510833b1bb57fbbb209ff95dfdb3b08ea418ae31ae34
+    digest: 69bf4d0194b42cc8754542faf665a8c8193adb6ec1b2275c7de5207962f1df9b
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -43,6 +43,6 @@ entries:
     sources:
     - https://github.com/k8s-community/user-manager
     urls:
-    - https://services.k8s.community/charts/user-manager-0.0.1.tgz
-    version: 0.0.1
-generated: 2017-05-18T23:23:30.210099959+07:00
+    - https://services.k8s.community/charts/user-manager-0.0.2.tgz
+    version: 0.0.2
+generated: 2017-05-19T00:01:21.016021583+07:00
