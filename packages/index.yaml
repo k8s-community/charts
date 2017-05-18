@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-05-18T15:57:49.532502208+07:00
+  - created: 2017-05-18T17:55:31.568785022+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: 094a6fc31990fb7e47bc0a2632025f658e12c504e0acb5c72adf9733c7512881
+    digest: 4bf665b18a763df065c7369a8717b9d059eefecb1cb78e931d8783c68f063c11
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,12 +13,12 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.1.tgz
-    version: 0.1.1
+    - https://services.k8s.community/charts/charts-0.1.2.tgz
+    version: 0.1.2
   oauth-proxy:
-  - created: 2017-05-18T15:57:49.532836+07:00
+  - created: 2017-05-18T17:55:31.569067944+07:00
     description: A Helm chart for oauth-proxy service
-    digest: 2b0761ccde982eb53947edd1c60c97c98c7aeb7289c41bc462bc76c7dfc264d8
+    digest: 4f292b1fea641b693ca5b93015fdc9f268a4cf0c8cfdcf3a5e4cf6578d935d0e
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -28,6 +28,6 @@ entries:
     sources:
     - https://github.com/k8s-community/oauth-proxy
     urls:
-    - https://services.k8s.community/charts/oauth-proxy-0.0.1.tgz
-    version: 0.0.1
-generated: 2017-05-18T15:57:49.531853756+07:00
+    - https://services.k8s.community/charts/oauth-proxy-0.0.2.tgz
+    version: 0.0.2
+generated: 2017-05-18T17:55:31.568287901+07:00
