@@ -52,7 +52,12 @@ ingress:
   ## Must be provided if Ingress is enabled
   ##
   hosts:
-  - k8s.community
+  - services.k8s.community
+
+  ## Ingress path feature allow access to service through path 
+  ## example: https://hostname/namespace/servicename
+  ##
+  usePath: true
 
   ## Ingress TLS configuration
   ## Secrets must be manually created in the namespace
@@ -60,7 +65,7 @@ ingress:
   tls:
   - secretName: tls-secret
     hosts:
-    - k8s.community
+    - services.k8s.community
 
 service:
   ## App container name
