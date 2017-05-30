@@ -1,7 +1,7 @@
 #!/bin/sh
 
 helm package charts
-helm package oauth-proxy
+helm package k8s-community
 helm package user-manager
 helm package github-integration
 mv *.tgz packages/
