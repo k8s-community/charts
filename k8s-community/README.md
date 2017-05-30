@@ -1,8 +1,8 @@
-# oauth-proxy: OAuth Proxy Service
+# k8s-community k8s-community service
 
 ## Source code
 
-You can reach the source code of this service [here](https://github.com/k8s-community/oauth-proxy).
+You can reach the source code of this service [here](https://github.com/k8s-community/k8s-community).
 
 ## Chart description
 

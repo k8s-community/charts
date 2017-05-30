@@ -27,7 +27,7 @@ image:
   ## Docker Registry/Hub image name and tag
   ##
   registry: registry.k8s.community
-  name: oauth-proxy
+  name: k8s-community
   tag: 0.0.3
 
   ## Docker Registry/Hub auth secret name, always use `registry-pull-secret` if registry inside if k8s
@@ -66,7 +66,7 @@ ingress:
 service:
   ## App container name
   ##
-  name: oauth-proxy
+  name: k8s-community
   
   ## Service Type
   ## For minikube, set this to NodePort, elsewhere use ClusterIP

@@ -1,9 +1,9 @@
-name: oauth-proxy
-description: A Helm chart for oauth-proxy service
-version: 0.0.3
+name: k8s-community
+description: A Helm chart for k8s-community service
+version: 0.0.4
 home: https://k8s.community/
 sources:
-  - https://github.com/k8s-community/oauth-proxy
+  - https://github.com/k8s-community/k8s-community
 maintainers:
   - name: Elena Grahovac
     email: elena@grahovac.me
