@@ -48,6 +48,16 @@ spec:
             secretKeyRef:
               name: github-integration
               key: integration-private-key
+        - name: COCKROACHDB_USER
+          valueFrom:
+            secretKeyRef:
+              name: github-int-db
+              key: user
+        - name: COCKROACHDB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: github-int-db
+              key: password
         {{- range .Values.externalServices }}
         - name: {{ printf "%s_SERVICE_HOST" .name | upper }}
           value: {{ .host }}
