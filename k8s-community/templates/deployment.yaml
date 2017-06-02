@@ -43,6 +43,11 @@ spec:
             secretKeyRef:
               name: github-oauth
               key: client-secret
+        - name: GITHUB_OAUTH_STATE
+            valueFrom:
+              secretKeyRef:
+                name: github-oauth
+                key: state
         - name: COCKROACHDB_USER
           valueFrom:
             secretKeyRef:
