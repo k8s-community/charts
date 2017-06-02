@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-06-02T13:23:51.004370039+07:00
+  - created: 2017-06-02T14:59:18.10621503+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: 2d5d145ccd94fec09c74b1026f8de095d9b70b7aa4fa513bfeafe7689d8bc3e7
+    digest: 02cc5d40071e1e58a58e7260586e75dca51d0561a65c3be40867b5dd5e9faf78
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,24 +13,10 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.10.tgz
-    version: 0.1.10
-  - created: 2017-06-02T13:23:51.005098651+07:00
-    description: A Helm chart for Kubernetes charts repository
-    digest: 5881caf6228038213c24241d55b68fed9239f37fcb63a8c2b50e9876b902eb24
-    engine: gotpl
-    home: https://k8s.community/
-    maintainers:
-    - email: idolzhikov@openprovider.com
-      name: Igor Dolzhikov
-    name: charts
-    sources:
-    - https://github.com/k8s-community/charts
-    urls:
-    - https://services.k8s.community/charts/charts-0.1.9.tgz
-    version: 0.1.9
+    - https://services.k8s.community/charts/charts-0.1.11.tgz
+    version: 0.1.11
   github-integration:
-  - created: 2017-06-02T13:23:51.006170366+07:00
+  - created: 2017-06-02T14:59:18.106523518+07:00
     description: A Helm chart for github-integration service
     digest: cb0880d4329edfcc98cd5019c01e81b289a48b74a8b061e36c8f722e30fd5880
     engine: gotpl
@@ -44,24 +30,10 @@ entries:
     urls:
     - https://services.k8s.community/charts/github-integration-0.0.3.tgz
     version: 0.0.3
-  - created: 2017-06-02T13:23:51.005801226+07:00
-    description: A Helm chart for github-integration service
-    digest: 768655541dd76b7390326898d5a02669af98bb460b8361f0e3756fdbf862b759
-    engine: gotpl
-    home: https://k8s.community/
-    maintainers:
-    - email: savelievharlam@gmail.com
-      name: Vladislav Saveliev
-    name: github-integration
-    sources:
-    - https://github.com/k8s-community/github-integration
-    urls:
-    - https://services.k8s.community/charts/github-integration-0.0.2.tgz
-    version: 0.0.2
   k8s-community:
-  - created: 2017-06-02T13:23:51.007374671+07:00
+  - created: 2017-06-02T14:59:18.106798393+07:00
     description: A Helm chart for k8s-community service
-    digest: b9503b5c83ff8a65e31c4939e8a274d356605cc933403a7a584071bbae96c9d7
+    digest: 3905c3a7f031323c425489f23bb8ae8f1025dbcb18efd955930f4fb61c5dd247
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -71,24 +43,10 @@ entries:
     sources:
     - https://github.com/k8s-community/k8s-community
     urls:
-    - https://services.k8s.community/charts/k8s-community-0.0.7.tgz
-    version: 0.0.7
-  - created: 2017-06-02T13:23:51.007060457+07:00
-    description: A Helm chart for k8s-community service
-    digest: 64c1fec8b55f2d952a51b5e93117418a5832122569d48e13e424356550c4e895
-    engine: gotpl
-    home: https://k8s.community/
-    maintainers:
-    - email: elena@grahovac.me
-      name: Elena Grahovac
-    name: k8s-community
-    sources:
-    - https://github.com/k8s-community/k8s-community
-    urls:
-    - https://services.k8s.community/charts/k8s-community-0.0.6.tgz
-    version: 0.0.6
+    - https://services.k8s.community/charts/k8s-community-0.0.8.tgz
+    version: 0.0.8
   user-manager:
-  - created: 2017-06-02T13:23:51.008605503+07:00
+  - created: 2017-06-02T14:59:18.107057956+07:00
     description: A Helm chart for user-manager service
     digest: 594620a40673f58babbf9f690d460522b6b8694ba902d691f2d3e3524cbf604e
     engine: gotpl
@@ -102,18 +60,4 @@ entries:
     urls:
     - https://services.k8s.community/charts/user-manager-0.0.4.tgz
     version: 0.0.4
-  - created: 2017-06-02T13:23:51.008264471+07:00
-    description: A Helm chart for user-manager service
-    digest: a9753197e82ae159884ae9ede100ad433defd18b2385d8272688b474099b5a53
-    engine: gotpl
-    home: https://k8s.community/
-    maintainers:
-    - email: savelievharlam@gmail.com
-      name: Vladislav Saveliev
-    name: user-manager
-    sources:
-    - https://github.com/k8s-community/user-manager
-    urls:
-    - https://services.k8s.community/charts/user-manager-0.0.3.tgz
-    version: 0.0.3
-generated: 2017-06-02T13:23:51.003944082+07:00
+generated: 2017-06-02T14:59:18.105828583+07:00
