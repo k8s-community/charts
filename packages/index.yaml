@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   charts:
-  - created: 2017-06-02T14:59:18.10621503+07:00
+  - created: 2017-06-02T15:10:50.529746852+07:00
     description: A Helm chart for Kubernetes charts repository
-    digest: 02cc5d40071e1e58a58e7260586e75dca51d0561a65c3be40867b5dd5e9faf78
+    digest: b4468cb208c2ddc0b7ef7436b2f928f0b8d9061bffe23b5bf30ccda51e234f06
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -13,10 +13,10 @@ entries:
     sources:
     - https://github.com/k8s-community/charts
     urls:
-    - https://services.k8s.community/charts/charts-0.1.11.tgz
-    version: 0.1.11
+    - https://services.k8s.community/charts/charts-0.1.12.tgz
+    version: 0.1.12
   github-integration:
-  - created: 2017-06-02T14:59:18.106523518+07:00
+  - created: 2017-06-02T15:10:50.530059863+07:00
     description: A Helm chart for github-integration service
     digest: cb0880d4329edfcc98cd5019c01e81b289a48b74a8b061e36c8f722e30fd5880
     engine: gotpl
@@ -31,9 +31,9 @@ entries:
     - https://services.k8s.community/charts/github-integration-0.0.3.tgz
     version: 0.0.3
   k8s-community:
-  - created: 2017-06-02T14:59:18.106798393+07:00
+  - created: 2017-06-02T15:10:50.530324358+07:00
     description: A Helm chart for k8s-community service
-    digest: 3905c3a7f031323c425489f23bb8ae8f1025dbcb18efd955930f4fb61c5dd247
+    digest: 61eabd4d3dafcf583e7188c88801727e2ba2c6bc23a601f97431bf51ea39c9cb
     engine: gotpl
     home: https://k8s.community/
     maintainers:
@@ -43,10 +43,10 @@ entries:
     sources:
     - https://github.com/k8s-community/k8s-community
     urls:
-    - https://services.k8s.community/charts/k8s-community-0.0.8.tgz
-    version: 0.0.8
+    - https://services.k8s.community/charts/k8s-community-0.0.9.tgz
+    version: 0.0.9
   user-manager:
-  - created: 2017-06-02T14:59:18.107057956+07:00
+  - created: 2017-06-02T15:10:50.530616866+07:00
     description: A Helm chart for user-manager service
     digest: 594620a40673f58babbf9f690d460522b6b8694ba902d691f2d3e3524cbf604e
     engine: gotpl
@@ -60,4 +60,4 @@ entries:
     urls:
     - https://services.k8s.community/charts/user-manager-0.0.4.tgz
     version: 0.0.4
-generated: 2017-06-02T14:59:18.105828583+07:00
+generated: 2017-06-02T15:10:50.529334064+07:00
