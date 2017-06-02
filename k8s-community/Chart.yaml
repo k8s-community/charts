@@ -1,6 +1,6 @@
 name: k8s-community
 description: A Helm chart for k8s-community service
-version: 0.0.7
+version: 0.0.8
 home: https://k8s.community/
 sources:
   - https://github.com/k8s-community/k8s-community
