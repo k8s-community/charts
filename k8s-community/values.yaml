@@ -3,9 +3,8 @@
 ## Declare variables to be passed into your templates.
 
 ## Count of instances
-## THIS SERVICE IS NOT READY TO BE REPLICABLE, SO PLEASE USE 1 INSTANCE HERE
 ##
-replicaCount: 1
+replicaCount: 2
 
 ## Count of revisions saved in release history
 ##
