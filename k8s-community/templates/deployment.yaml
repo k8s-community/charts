@@ -46,12 +46,12 @@ spec:
         - name: COCKROACHDB_USER
           valueFrom:
             secretKeyRef:
-              name: cockroachdb
+              name: k8s-community-db
               key: user
         - name: COCKROACHDB_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: cockroachdb
+              name: k8s-community-db
               key: password
         - name: K8S_GUEST_TOKEN
           valueFrom:
